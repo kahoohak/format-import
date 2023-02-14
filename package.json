@@ -10,21 +10,20 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:format-import.helloWorld"
+        "onCommand:FormatImport"
     ],
     "main": "./extension.js",
     "contributes": {
         "commands": [
             {
-                "command": "format-import.helloWorld",
-                "title": "Hello World"
+                "command": "FormatImport",
+                "title": "Format Import"
             }
         ],
         "menus": {
             "editor/context": [
                 {
-                    "command": "format-import.helloWorld",
-                    "group": "group1"
+                    "command": "FormatImport"
                 }
             ]
         }
